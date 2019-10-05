@@ -61,6 +61,21 @@
     <Compile Include="S03\L16_PropertyAndMethodInjection.cs" />
     <Compile Include="S03\L17_ScanningForTypes.cs" />
     <Compile Include="S03\L18_ScanningForModules.cs" />
+    <Compile Include="S04\BaseClasses.cs" />
+    <Compile Include="S04\L21_DelayedInstantiation.cs" />
+    <Compile Include="S04\L22_ControlledInstantiation.cs" />
+    <Compile Include="S04\L23_DynamicInst.cs" />
+    <Compile Include="S04\L24_ParametrizedInst.cs" />
+    <Compile Include="S04\L25_Enumeration.cs" />
+    <Compile Include="S04\L26_MetadataInterrogation.cs" />
+    <Compile Include="S04\L27_KeyedServiceLookup.cs" />
+    <Compile Include="S04\L28_ContainerIndependence.cs" />
+    <Compile Include="S05\BaseClasses.cs" />
+    <Compile Include="S05\L31_InstanceScope.cs" />
+    <Compile Include="S05\L32_CaptiveDependencies.cs" />
+    <Compile Include="S05\L33_Disposal.cs" />
+    <Compile Include="S05\L34_LifetimeEvents.cs" />
+    <Compile Include="S05\L35_Startup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

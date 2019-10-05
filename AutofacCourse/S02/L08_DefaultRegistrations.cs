@@ -15,7 +15,7 @@ namespace AutofacCourse.S02
             Console.WriteLine($"\n----- {MethodBase.GetCurrentMethod().DeclaringType.Name} -----");
 
             /* chcemy zmienic sposob logowania -> wystarczy przypisac inny typ ILoga */
-            /* zeby zachowac dwa typy loggerow i korzystac z pierwszego (email) trzeba dodac preserveexistingdefault.
+            /* zeby zachowac dwa typy loggerow Id korzystac z pierwszego (email) trzeba dodac preserveexistingdefault.
              Mozna przypisac do dwoch interfejsow wywolujac kolejno As... As... */
 
             var builder = new ContainerBuilder();
