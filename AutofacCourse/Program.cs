@@ -9,6 +9,8 @@ using AutofacCourse.S02.L07;
 using AutofacCourse.S03;
 using AutofacCourse.S04;
 using AutofacCourse.S05;
+using AutofacCourse.S06;
+using AutofacCourse.S07;
 
 namespace AutofacCourse
 {
@@ -48,6 +50,16 @@ namespace AutofacCourse
             L34_LifetimeEvents.Run();
             L35_Startup.Run();
 
+            // Section 6
+            L39_Modules.Run();
+            L40_MSConfig_JsonXml.Run();
+            L42_ModulesConfig.Run();
+
+            // Section 7
+            L45_RegistrationServices.Run();
+            L45a_RegistrationServices.Run();
+            L46_Adapters.Run();
+            L47_Decorator.Run();
 
             Console.ReadKey();
         }

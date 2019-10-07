@@ -1,0 +1,8 @@
+﻿{
+  "defaultAssembly": "AutofacCourse",
+  "modules": [
+    {
+      "type": "AutofacCourse.S06.CalculationModule, AutofacCourse"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "defaultAssembly": "AutofacCourse",
+  "components": [
+    {
+      "type": "AutofacCourse.S06.Addition",
+      "services": [ { "type": "AutofacCourse.S06.IOperation" } ]
+    },
+    {
+      "type": "AutofacCourse.S06.Multiplication",
+      "services": [ { "type": "AutofacCourse.S06.IOperation" } ]
+    }
+  ]
+}
